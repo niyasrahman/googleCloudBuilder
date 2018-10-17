@@ -4,4 +4,3 @@ EXPOSE 9005
 RUN npm install 
 RUN npm install -g firebase-tools
 RUN npm install --global gatsby-cli
-RUN gatsby build
