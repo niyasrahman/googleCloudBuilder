@@ -1,8 +1,8 @@
 steps:
 - name: 'gcr.io/cloud-builders/npm'
   args: ['install']
-- name: 'gcr.io/cloud-builders/npm'
-  args: [install -g firebase-tools]
+- name: 'ubuntu'
+  args: ['sh', './build.sh']
 
 timeout: "1600s" 
 
