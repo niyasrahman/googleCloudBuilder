@@ -3,5 +3,4 @@ steps:
   entrypoint: 'node'
   args: ['--version']
 - name: 'gcr.io/cloud-builders/npm'
-  entrypoint: 'node'
   args: ['install']
