@@ -8,3 +8,5 @@ steps:
   args: ['install','firebase-tools']
 - name: 'gcr.io/cloud-builders/npm'
   args: ['run','build']
+- name: 'gcr.io/cloud-builders/npm'
+  args: ['run','deploy']
