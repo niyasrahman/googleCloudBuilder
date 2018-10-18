@@ -19,7 +19,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "deploy":"firebase deploy",
+    "deploy":"firebase deploy --token=1/nssm6TjjRlUrkGsjKbkTu2e4DqJgCOwNWyIkMB9OPYM",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
