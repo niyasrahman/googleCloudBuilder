@@ -1,0 +1,12 @@
+steps:
+- name: 'gcr.io/cloud-builders/npm'
+  entrypoint: 'node'
+  args: ['--version']
+- name: 'gcr.io/cloud-builders/npm'
+  args: ['install']
+- name: 'gcr.io/cloud-builders/npm'
+  args: ['install','firebase-tools']
+- name: 'gcr.io/cloud-builders/npm'
+  args: ['run','build']
+- name: 'gcr.io/cloud-builders/npm'
+  args: ['run','deploy']
