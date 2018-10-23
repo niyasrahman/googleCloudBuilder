@@ -3,6 +3,8 @@ steps:
   entrypoint: 'node'
   args: ['--version']
 - name: 'gcr.io/cloud-builders/npm'
+  args: ['cache','clean','--force']
+- name: 'gcr.io/cloud-builders/npm'
   args: ['install']
 - name: 'gcr.io/cloud-builders/npm'
   args: ['install','firebase-tools']
@@ -10,3 +12,5 @@ steps:
   args: ['run','build']
 - name: 'gcr.io/cloud-builders/npm'
   args: ['run','deploy']
+
+

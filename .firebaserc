@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "cloud-e3020",
+    "prod": "build-prod-fe63e"
+  }
+}
