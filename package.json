@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "nyas",
   "description": "Gatsby default starter",
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
@@ -19,7 +19,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "deploy":"firebase deploy --token=1/nssm6TjjRlUrkGsjKbkTu2e4DqJgCOwNWyIkMB9OPYM",
+    "deploy":"firebase deploy --token=1/rL8OuQpVrNvZR2ZcP52Zv8FIMlBzjBJGw8gRI11afkLVNUM1L_IVW1PLfT20O95j",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
