@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "firebase-tools": "^5.1.1",
     "gatsby": "^2.0.19",
     "gatsby-plugin-manifest": "^2.0.5",
     "gatsby-plugin-offline": "^2.0.5",
@@ -19,7 +20,8 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "deploy":"firebase deploy --token=1/rL8OuQpVrNvZR2ZcP52Zv8FIMlBzjBJGw8gRI11afkLVNUM1L_IVW1PLfT20O95j",
+    "deploy_staging": "firebase deploy -P default --token=1/rL8OuQpVrNvZR2ZcP52Zv8FIMlBzjBJGw8gRI11afkLVNUM1L_IVW1PLfT20O95j",
+    "deploy_prod": "firebase deploy -P prod --token=1/rL8OuQpVrNvZR2ZcP52Zv8FIMlBzjBJGw8gRI11afkLVNUM1L_IVW1PLfT20O95j",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
